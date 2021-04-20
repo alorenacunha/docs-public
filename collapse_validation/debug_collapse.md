@@ -5,8 +5,8 @@ O objetivo deste arquivo é registrar validação ponto a ponto no cálculo de c
 "Plataforma" - código implementado e integrado na plataforma Quality
 Para realizar essa validação foi utilizado os arquivos de dados em anexo:
 
-- [WT_data_condensed_wt.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/WT_data_condensed_wt.xlsx)
-- [OD_data_condensed_od.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/OD_data_condensed_od.xlsx)
+- [WT_data_condensed_wt.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/WT_data_condensed.xlsx)
+- [OD_data_condensed_od.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/OD_data_condensed.xlsx)
 
 ## Método de validação:
 
@@ -69,13 +69,13 @@ Para realizar essa validação foi utilizado os arquivos de dados em anexo:
 
 ```
 
-- [verify_pipe_original.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/verify_pipe_original.xlsx)
+- [verify_pipe_original.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/verify_pipe_original.xlsx)
 
 2. Ler arquivos na plataforma realizando as conversões de unidade e executando o verify_pipe na plataforma
 
 - Configuração de Projeto:
   
-  ![projeto_information](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/project_information.png?raw=true)
+  ![projeto_information](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/project_information.png?raw=true)
 
   ```json
   {
@@ -141,14 +141,14 @@ Para realizar essa validação foi utilizado os arquivos de dados em anexo:
 
 - Arquivos com unidades convertidas na plataforma
 
-  - [od_platform.csv](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/od_platform.csv)
-  - [wt_platform.csv](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/wt_platform.csv)
+  - [od_platform.csv](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/od_platform.csv)
+  - [wt_platform.csv](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/wt_platform.csv)
 
 - Verify Pipe
-  - [warnings_original](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/warnings_original.xlsx)
-  - [warnings_platform](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/warnings_platform.csv)
-  - [verify_pipe_originals](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/verify_pipe_originals.xlsx)
-  - [verify_pipe_platform](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/verify_pipe_platform.csv)
+  - [warnings_original](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/warnings_original.xlsx)
+  - [warnings_platform](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/warnings_platform.csv)
+  - [verify_pipe_original](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/verify_pipe_original.xlsx)
+  - [verify_pipe_platform](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/verify_pipe_platform.csv)
 
 1. Comparar valores de saída original vs plataforma
 
@@ -397,50 +397,50 @@ Para realizar essa validação foi utilizado os arquivos de dados em anexo:
 
 - #### Comparativo de valores
   - DB2397 XX 31
-    ![original_31](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_o_31.png?raw=true)
+    ![original_31](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_o_31.png?raw=true)
 
-    ![platform_31](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_p_31.png?raw=true)
+    ![platform_31](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_p_31.png?raw=true)
 
   - DB2397 XX 22
-    ![original_22](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_o_22.png?raw=true)
+    ![original_22](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_o_22.png?raw=true)
 
-    ![platform_22](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_p_22.png?raw=true)
+    ![platform_22](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_p_22.png?raw=true)
 
   - DB2399 XX 54
-    ![original_54](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_o_54.png?raw=true)
+    ![original_54](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_o_54.png?raw=true)
 
-    ![platform_54](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_p_54.png?raw=true)
+    ![platform_54](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_p_54.png?raw=true)
 
   - DB2398 XX 5
     - não gerado no original
 
-    ![platform_5](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_p_5.png?raw=true)
+    ![platform_5](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_p_5.png?raw=true)
 
   - DB2398 XX 17
     - não gerado no original
 
-    ![platform_17](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/v_p_p_17.png?raw=true)
+    ![platform_17](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/v_p_p_17.png?raw=true)
 
   
 ### Execução do modelo de colapso
 
 1. Rodar o modelo de colapso com valores sugeridos na versão original
 
-- [collapse_data_aramis_original.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/collapse_data_aramis_original.xlsx)
+- [collapse_data_aramis_original.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/collapse_data_aramis_original.xlsx)
 
 2. Executar o valor de colapso com os mesmo parâmetros de entrada na plataforma
 
-- [collapse_platform.csv](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/collapse_platform.csv)
+- [collapse_platform.csv](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/collapse_platform.csv)
 
 3. Comparar valores de colapso de saída original vs plataforma
    
-  ![comparativo_collapse](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/comparativo_collapse.png?raw=true)
+  ![comparativo_collapse](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/comparativo_collapse.png?raw=true)
 
 ### Executar as mesmas etapas anteriores com os arquivos vstar
 
-- [119098_14inch_VM125HC_compiled_wt.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/119098_14inch_VM125HC_compiled_wt.xlsx)
+- [119098_14inch_VM125HC_compiled_wt.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/119098_14inch_VM125HC_compiled_wt.xlsx)
 
-- [119098_14inch_VM125HC_compiled_od.xlsx](https://github.com/alorenacunha/docs/blob/master/pp2020/dossie/119098_14inch_VM125HC_compiled_od.xlsx)
+- [119098_14inch_VM125HC_compiled_od.xlsx](https://github.com/alorenacunha/docs-public/blob/main/collapse_validation/119098_14inch_VM125HC_compiled_od.xlsx)
 
 1. Ler arquivos nos códigos 'original' versão do Versiani e executar o verify_pipe realizando as conversões de unidade
 
